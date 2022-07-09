@@ -1,6 +1,6 @@
 {
   "name": "@matheusmazeto/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Matheus's ESLint config",
   "author": "Matheus Mazeto <mgmazeto@gmail.com> (https://github.com/matheusmazeto/)",
   "license": "MIT",
