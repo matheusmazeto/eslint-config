@@ -34,7 +34,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'antfu',
+    'matheusmazeto',
   ],
   settings: {
     'import/resolver': {
@@ -330,9 +330,9 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
-    'antfu/if-newline': 'error',
-    'antfu/import-dedupe': 'error',
-    // 'antfu/prefer-inline-type-import': 'error',
+    // matheusmazeto
+    'matheusmazeto/if-newline': 'error',
+    'matheusmazeto/import-dedupe': 'error',
+    // 'matheusmazeto/prefer-inline-type-import': 'error',
   },
 }

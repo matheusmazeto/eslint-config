@@ -1,0 +1,6 @@
+{
+  "extends": "@matheusmazeto",
+  "plugins": [
+    "matheusmazeto"
+  ]
+}

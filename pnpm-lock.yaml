@@ -4,22 +4,22 @@ importers:
 
   .:
     specifiers:
-      '@antfu/eslint-config': '*'
+      '@matheusmazeto/eslint-config': '*'
       bumpp: ^7.1.1
       eslint: ^8.16.0
-      eslint-plugin-antfu: workspace:*
+      eslint-plugin-matheusmazeto: workspace:*
       typescript: ^4.7.2
     devDependencies:
-      '@antfu/eslint-config': link:packages/all
+      '@matheusmazeto/eslint-config': link:packages/all
       bumpp: 7.1.1
       eslint: 8.16.0
-      eslint-plugin-antfu: link:packages/eslint-plugin-antfu
+      eslint-plugin-matheusmazeto: link:packages/eslint-plugin-matheusmazeto
       typescript: 4.7.2
 
   packages/all:
     specifiers:
-      '@antfu/eslint-config-react': workspace:*
-      '@antfu/eslint-config-vue': workspace:*
+      '@matheusmazeto/eslint-config-react': workspace:*
+      '@matheusmazeto/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.26.0
       '@typescript-eslint/parser': ^5.26.0
       eslint: ^8.16.0
@@ -35,8 +35,8 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.1
     dependencies:
-      '@antfu/eslint-config-react': link:../react
-      '@antfu/eslint-config-vue': link:../vue
+      '@matheusmazeto/eslint-config-react': link:../react
+      '@matheusmazeto/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': 5.26.0_grfei5yostfimvqdpf73rlhy3e
       '@typescript-eslint/parser': 5.26.0_eslint@8.16.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.16.0
@@ -56,7 +56,7 @@ importers:
   packages/basic:
     specifiers:
       eslint: ^8.16.0
-      eslint-plugin-antfu: workspace:*
+      eslint-plugin-matheusmazeto: workspace:*
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.26.0
@@ -69,7 +69,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.1
     dependencies:
-      eslint-plugin-antfu: link:../eslint-plugin-antfu
+      eslint-plugin-matheusmazeto: link:../eslint-plugin-matheusmazeto
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.16.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.26.0_eslint@8.16.0
@@ -84,7 +84,7 @@ importers:
     devDependencies:
       eslint: 8.16.0
 
-  packages/eslint-plugin-antfu:
+  packages/eslint-plugin-matheusmazeto:
     specifiers:
       '@typescript-eslint/utils': ^5.26.0
       unbuild: ^0.7.4
@@ -97,13 +97,13 @@ importers:
 
   packages/react:
     specifiers:
-      '@antfu/eslint-config-ts': workspace:*
+      '@matheusmazeto/eslint-config-ts': workspace:*
       eslint: ^8.16.0
       eslint-plugin-react: ^7.30.0
       react: ^18.1.0
       typescript: ^4.7.2
     dependencies:
-      '@antfu/eslint-config-ts': link:../typescript
+      '@matheusmazeto/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.30.0_eslint@8.16.0
     devDependencies:
       eslint: 8.16.0
@@ -112,12 +112,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@antfu/eslint-config-basic': workspace:*
+      '@matheusmazeto/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.26.0
       '@typescript-eslint/parser': ^5.26.0
       eslint: ^8.16.0
     dependencies:
-      '@antfu/eslint-config-basic': link:../basic
+      '@matheusmazeto/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.26.0_grfei5yostfimvqdpf73rlhy3e
       '@typescript-eslint/parser': 5.26.0_eslint@8.16.0
     devDependencies:
@@ -125,11 +125,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@antfu/eslint-config-ts': workspace:*
+      '@matheusmazeto/eslint-config-ts': workspace:*
       eslint: ^8.16.0
       eslint-plugin-vue: ^9.0.1
     dependencies:
-      '@antfu/eslint-config-ts': link:../typescript
+      '@matheusmazeto/eslint-config-ts': link:../typescript
       eslint-plugin-vue: 9.0.1_eslint@8.16.0
     devDependencies:
       eslint: 8.16.0
